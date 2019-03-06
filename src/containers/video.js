@@ -16,7 +16,7 @@ class Video extends React.Component {
         this.setState({ comment: e.target.value })
     }
     handleClick = (e) =>{
-        
+        e.preventDefault();
     }
 
 
