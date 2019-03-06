@@ -22,6 +22,7 @@ class Home extends React.Component {
                 type: 'video',
                 videoEmbeddable: 'true',
                 key: 'AIzaSyBqsTC2uJ5zklkPcEDeLpAz4B6UktMYuPo',
+                q: this.state.searchInput,
 
                 
 
