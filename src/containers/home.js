@@ -14,6 +14,7 @@ class Home extends React.Component {
         console.log('Button was clicked');
         axios({
             method: 'get',
+            url: 'https://www.googleapis.com/youtube/v3/search',
         })
     }
 }
