@@ -31,6 +31,8 @@ class Video extends React.Component {
              <form>
              <div class="form-group">
              <label for="exampleInputEmail1">Name</label>
+             <input onChange={this.handleNameChange} value={this.state.name} type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name..." />
+
 
 
 
