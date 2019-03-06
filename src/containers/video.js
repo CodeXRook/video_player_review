@@ -30,6 +30,8 @@ class Video extends React.Component {
              <VideoPlayer id={this.props.match.params.id} />
              <form>
              <div class="form-group">
+             <label for="exampleInputEmail1">Name</label>
+
 
 
 
