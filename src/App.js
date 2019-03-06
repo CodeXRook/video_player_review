@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import {HashRouter, Route } from 'react-router-dom';
 
+//ONCE ROUTE PATH ARE DONE IMPORT THOSE ROUTES
+import Navbar from './components/navbar';
+
+
 
 class App extends Component {
   render() {
