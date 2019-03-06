@@ -11,6 +11,6 @@ class Home extends React.Component {
     this.setState({ searchInput: e.target.value });
     }
     handleSubmit = (e) => {
-        
+        console.log('Button was clicked');
     }
 }
