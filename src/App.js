@@ -7,7 +7,7 @@ class App extends Component {
     return (
      <HashRouter>
        <>
-      
+      <Route component ={Navbar} />
        </>
      </HashRouter>
     );
