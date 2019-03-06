@@ -13,7 +13,9 @@ class Video extends React.Component {
     }
 
     handleCommentChange = (e) =>{
-        
+        this.setState({ comment: e.target.value })
     }
+
+    
 
 }
