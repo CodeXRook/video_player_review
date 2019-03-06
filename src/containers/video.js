@@ -21,10 +21,14 @@ class Video extends React.Component {
         commentsList.unshift({ name: name, comment: comment });
         this.setState({ name: '', comment: '', commentsList });    
     }
-    
+
     render() {
         console.log(this.state);
     
+        return(
+            <>
+             <VideoPlayer id={this.props.match.params.id} />
+        )
 
 
 
