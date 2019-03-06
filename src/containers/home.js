@@ -26,6 +26,10 @@ class Home extends React.Component {
                 pageToken: ''
             }
         })
+        .then(response => {
+            this.setState({videos:response.data.items})
+        })
+
 
 
                 
