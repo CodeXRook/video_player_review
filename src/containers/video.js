@@ -28,7 +28,8 @@ class Video extends React.Component {
         return(
             <>
              <VideoPlayer id={this.props.match.params.id} />
-        )
+             <form>
+             <div class="form-group">
 
 
 
