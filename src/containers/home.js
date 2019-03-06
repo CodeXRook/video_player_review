@@ -10,5 +10,7 @@ class Home extends React.Component {
     handleSearchText = (e) => {
     this.setState({ searchInput: e.target.value });
     }
-    
+    handleSubmit = (e) => {
+        
+    }
 }
