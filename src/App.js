@@ -8,6 +8,7 @@ class App extends Component {
      <HashRouter>
        <>
       <Route component ={Navbar} />
+      <Route path='/' exact component={Home} />
        </>
      </HashRouter>
     );
