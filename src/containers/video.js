@@ -19,6 +19,7 @@ class Video extends React.Component {
         e.preventDefault();
         const {name, comment, commentsList } = this.state;
         commentsList.unshift({ name: name, comment: comment });
+        this.setState({ name: '', comment: '', commentsList });
         
     }
 
