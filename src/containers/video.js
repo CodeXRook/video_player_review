@@ -36,6 +36,8 @@ class Video extends React.Component {
              <div class="form-group">
              <label for="exampleInputPassword1">Comment</label>
              <input onChange={this.handleCommentChange} value={this.state.comment} type="text" class="form-control" id="exampleInputPassword1" placeholder="Comment..." />
+            </div>
+            <button onClick={this.handleClick} type="submit" class="btn btn-primary">Submit</button>
 
 
 
