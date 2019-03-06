@@ -40,6 +40,16 @@ class Video extends React.Component {
             <button onClick={this.handleClick} type="submit" class="btn btn-primary">Submit</button>
             </form>
             <div className='mt-5'>
+            {
+             this.state.commentsList.map((e, i) => {
+                 return(
+                     <div>
+                         <h1>{e.name}</h1>
+                     </div>
+                 )
+             }
+
+            }
 
 
 
