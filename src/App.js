@@ -9,6 +9,7 @@ class App extends Component {
        <>
       <Route component ={Navbar} />
       <Route path='/' exact component={Home} />
+      <Route path= '/video/id' component={Video} />
        </>
      </HashRouter>
     );
