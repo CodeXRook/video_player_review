@@ -7,4 +7,7 @@ class Home extends React.Component {
         searchInput:''
     }
     
+    handleSearchText = (e) => {
+        
+    }
 }
