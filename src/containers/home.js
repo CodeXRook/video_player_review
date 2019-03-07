@@ -32,9 +32,15 @@ class Home extends React.Component {
     }
     render({
         console.log(this.state);
-        const noResults = <div className="alert-secondary" role="alert">
+
+        const noResults = <div className="alert alert-secondary" role="alert">
+        No Search Results yet!
+        </div>;
+
+        const results= <div className='row'>
         
         </div>
+
     })
 
 
