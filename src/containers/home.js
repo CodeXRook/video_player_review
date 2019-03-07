@@ -29,6 +29,13 @@ class Home extends React.Component {
         .then(response => {
             this.setState({videos:response.data.items})
         })
+    }
+    render({
+        console.log(this.state);
+        const noResults = <div className="alert-secondary" role="alert">
+        
+        </div>
+    })
 
 
 
