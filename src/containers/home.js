@@ -55,19 +55,11 @@ class Home extends React.Component {
                  </div>
 
                  </div>
-                
-            )
-        }
-        </div>
-
-    })
-
-
-
-                
-
-
-            }
-        })
-    }
-}
+                 {
+                    this.state.videos.length === 0 ? noResults: results
+                 }
+                 </div>
+               );
+              }
+           }
+export default Home;
