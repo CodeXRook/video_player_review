@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from axios;
+import VideoCard from '../components/videcard';
 
 class Home extends React.Component {
     state ={
@@ -30,7 +31,7 @@ class Home extends React.Component {
             this.setState({videos:response.data.items})
         })
     }
-    render({
+    render(){
         console.log(this.state);
 
         const noResults = <div className="alert alert-secondary" role="alert">
@@ -51,15 +52,16 @@ class Home extends React.Component {
                  <input onChange={this.handleSearchText} type="text" className="form-control" placeholder="Search..." aria-label="Search..." aria-describedby="button-addon2" />
                  <div className="input-group-append">
                  <button onClick={this.handleSubmit} className="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
-
+                 </div>
                  </div>
 
-                 </div>
                  {
                     this.state.videos.length === 0 ? noResults: results
                  }
+
                  </div>
                );
               }
            }
+
 export default Home;
