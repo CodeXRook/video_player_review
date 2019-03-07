@@ -42,7 +42,13 @@ class Home extends React.Component {
             this.state.videos.map((e, i)=>{
                 return<VideoCard id ={e.id.videoId} image={e.snippet.thumbnails.medium.url}title={e.snippet.title}/>;
             })
-            })
+            }
+            </div>
+            
+            return(
+                <div className='container'>
+                
+            )
         }
         </div>
 
